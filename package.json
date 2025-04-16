@@ -1,10 +1,12 @@
 {
-  "name": "your-app",
+  "name": "github-actions-poc",
   "version": "1.0.0",
-  "dependencies": {
-    "express": "^4.17.1"
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
   },
-  "some-local-changes": "value",
-  "some-remote-changes": "value"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
 
